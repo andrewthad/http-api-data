@@ -26,12 +26,6 @@ tested-with:
   GHC==8.2.2,
   GHC==8.4.3
 
-custom-setup
-  setup-depends:
-    base >= 4.7 && <4.12,
-    Cabal >= 1.18 && <2.3,
-    cabal-doctest >=1.0.6 && <1.1
-
 flag use-text-show
   description: Use text-show library for efficient ToHttpApiData implementations.
   default: False
